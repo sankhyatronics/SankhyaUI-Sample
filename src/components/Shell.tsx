@@ -14,10 +14,10 @@ export const Shell: React.FC = () => {
             toggleTheme();
         },
         onLanguageChangeToEn: () => {
-            setLanguage('en'); window.location.reload()
+            setLanguage('en');
         },
         onLanguageChangeToDk: () => {
-            setLanguage('dk'); window.location.reload()
+            setLanguage('dk');
         }
     };
 
@@ -26,8 +26,44 @@ export const Shell: React.FC = () => {
             try {
                 const header = await cmsApiFetchers.getHeader(language);
                 const footer = await cmsApiFetchers.getFooter(language);
-                setHeaderData(header);
-                setFooterData(footer?.data || footer);
+
+                // Clone data to ensure new references and trigger rerenders
+                const updatedHeader = JSON.parse(JSON.stringify(header));
+                const updatedFooter = JSON.parse(JSON.stringify(footer?.data || footer));
+
+                // Inject current language as defaultValue and value for the language selector
+                const findAndSetLanguage = (config: any) => {
+                    if (!config || typeof config !== 'object') return;
+
+                    if (Array.isArray(config)) {
+                        config.forEach(child => findAndSetLanguage(child));
+                        return;
+                    }
+
+                    // Check if this component is the language selector
+                    if (config.id === 'select-language' || config.data?.id === 'select-lang' || config.type === 'Select') {
+                        // Double check if it's the language selection one by checking options if possible
+                        // const isLangSelect = config.data?.options?.some((opt: any) => opt.value === 'en' || opt.value === 'dk');
+                        if (config.id === 'select-language' || config.data?.id === 'select-lang') {
+                            config.value = language;
+                            config.defaultValue = language;
+                            if (config.data) {
+                                config.data.value = language;
+                                config.data.defaultValue = language;
+                            }
+                        }
+                    }
+
+                    // Recurse into children and items
+                    if (config.children) findAndSetLanguage(config.children);
+                    if (config.data?.children) findAndSetLanguage(config.data.children);
+                    if (config.data?.items) findAndSetLanguage(config.data.items);
+                };
+
+                findAndSetLanguage(updatedHeader);
+
+                setHeaderData(updatedHeader);
+                setFooterData(updatedFooter);
             } catch (e) {
                 console.error("Failed to load shell data", e);
             }

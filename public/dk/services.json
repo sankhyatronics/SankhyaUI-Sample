@@ -1,11 +1,73 @@
 [
     {
-        "title": "Lorem ipsum dolor sit amet.",
+        "title": "Vores Services",
         "Data": {
-            "type": "FeaturesSection",
+            "type": "Hero",
             "data": {
-                "title": "Lorem ipsum dolor sit amet.",
-                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "title": "Omfattende digitale løsninger",
+                "subtitle": "Fra strategi til eksekvering leverer vi den ekspertise, du har brug for for at få succes i den digitale tidsalder.",
+                "imageSrc": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80",
+                "className": "min-h-[40vh] bg-primary text-primary-950"
+            }
+        }
+    },
+    {
+        "title": "Serviceområder",
+        "Data": {
+            "type": "BentoGrid",
+            "data": {
+                "title": "Vores Ekspertise",
+                "subtitle": "Et bredt udvalg af løsninger skræddersyet til dine forretningsmål.",
+                "items": [
+                    {
+                        "title": "Strategisk Rådgivning",
+                        "description": "Optimer din roadmap for skalerbarhed og innovation.",
+                        "icon": "mdi:briefcase-outline",
+                        "colSpan": 2,
+                        "rowSpan": 1,
+                        "href": "#consultancy",
+                        "className": "bg-primary-50"
+                    },
+                    {
+                        "title": "Digital Transformation",
+                        "description": "Moderniser systemer og indfør agile arbejdsgange.",
+                        "icon": "mdi:rocket-launch-outline",
+                        "colSpan": 1,
+                        "rowSpan": 2,
+                        "className": "bg-primary-100"
+                    },
+                    {
+                        "title": "AI Integration",
+                        "description": "Udnyt Agentic AI til at automatisere komplekse processer.",
+                        "icon": "mdi:robot-excited-outline",
+                        "colSpan": 1,
+                        "rowSpan": 1,
+                        "href": "#ai",
+                        "className": "bg-primary-200"
+                    },
+                    {
+                        "title": "Managed Services",
+                        "description": "24/7 proaktiv overvågning og infrastrukturstøtte.",
+                        "icon": "mdi:server-network",
+                        "colSpan": 2,
+                        "rowSpan": 1,
+                        "href": "#managed",
+                        "className": "bg-primary-50"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "title": "Kom i gang",
+        "Data": {
+            "type": "CTASection",
+            "data": {
+                "title": "Klar til at transformere din forretning?",
+                "subtitle": "Slut dig til hundredvis af ledere, der stoler på SankhyaCMS til deres digitale strategi.",
+                "actionLabel": "Kontakt vores eksperter",
+                "href": "/contact-us",
+                "inverted": true
             }
         }
     }

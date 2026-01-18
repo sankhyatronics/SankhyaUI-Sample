@@ -1,14 +1,15 @@
 [
     {
-        "title": "Lorem ipsum dolor sit amet.",
+        "title": "Hovedbund",
         "Data": {
             "type": "Footer",
             "data": {
-                "companyName": "",
-                "imageSrc": "https://placehold.co/400x120/2E6305/FFFFFF?text=SankhyaUI",
+                "companyName": "Sample",
+                "imageSrc": "logo.svg",
+                "altText": "Logo",
                 "inverted": true,
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit fugiat nulla pariatur.",
-                "copyright": "\u00a9 2026 Sankhyatronics. All rights reserved.",
+                "description": "Førende inden for moderne CMS-løsninger og Agentic AI-udvikling.",
+                "copyright": "© 2026 Sankhyatronics. Alle rettigheder forbeholdes.",
                 "socialLinks": [
                     {
                         "icon": "mdi:linkedin",
@@ -16,37 +17,37 @@
                     },
                     {
                         "icon": "mdi:github",
-                        "href": "https://github.com/sankhyatronics/SankhyaUI"
+                        "href": "https://github.com/sankhyatronics/SankhyaCMS"
                     }
                 ],
                 "columns": [
                     {
-                        "title": "Lorem ipsum dolor sit amet.",
+                        "title": "Sideoversigt",
                         "links": [
                             {
-                                "label": "Lorem ipsum dolor sit amet.",
-                                "href": "Privacy-Policy"
+                                "label": "Forside",
+                                "href": "/"
                             },
                             {
-                                "label": "Lorem ipsum dolor sit amet.",
-                                "href": "Cookie-Policy"
+                                "label": "Services",
+                                "href": "/services"
                             },
                             {
-                                "label": "Lorem ipsum dolor sit amet.",
-                                "href": "copyright"
-                            },
-                            {
-                                "label": "Lorem ipsum dolor sit amet.",
-                                "href": "terms-of-use"
+                                "label": "Kontakt os",
+                                "href": "/contact-us"
                             }
                         ]
                     },
                     {
-                        "title": "Lorem ipsum dolor sit amet.",
+                        "title": "Juridisk",
                         "links": [
                             {
-                                "label": "Lorem ipsum dolor sit amet.",
-                                "href": "contact-us"
+                                "label": "Privatlivspolitik",
+                                "href": "#"
+                            },
+                            {
+                                "label": "Betingelser for brug",
+                                "href": "#"
                             }
                         ]
                     }

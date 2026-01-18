@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sankhyatronics/sankhya-ui':
-        specifier: 0.0.4
-        version: 0.0.4(@iconify/react@6.0.2(react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react-router@7.11.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react@19.2.0)
+        specifier: 0.0.6
+        version: 0.0.6(@iconify/react@6.0.2(react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react-router@7.11.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react@19.2.0)
       '@tailwindcss/vite':
         specifier: 4.1.18
         version: 4.1.18(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2))
@@ -529,8 +529,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@sankhyatronics/sankhya-ui@0.0.4':
-    resolution: {integrity: sha512-+d4uyvDwuRc07xhr4VoewBx/0goxSu8BeDDq2JAxhXbZUHj92QN05imx5skLlzD2UdOcmNCVjVcRE1+7FIRwFQ==}
+  '@sankhyatronics/sankhya-ui@0.0.6':
+    resolution: {integrity: sha512-1mknSFAJp9nZrv+akGB9AWdBzW5W5rbEUAllJ7NQv/37krNn5LKMQuwITOnplJ4Jqy5vtrg6gA6jGgpMtXu+/g==}
     peerDependencies:
       '@iconify/react': 6.0.2
       react: 19.2.0
@@ -2052,7 +2052,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.55.1':
     optional: true
 
-  '@sankhyatronics/sankhya-ui@0.0.4(@iconify/react@6.0.2(react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react-router@7.11.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react@19.2.0)':
+  '@sankhyatronics/sankhya-ui@0.0.6(@iconify/react@6.0.2(react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react-router@7.11.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@emotion/is-prop-valid': 1.4.0
       '@iconify/react': 6.0.2(react@19.2.0)

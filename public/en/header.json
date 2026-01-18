@@ -1,17 +1,17 @@
 [
     {
-        "title": "Lorem ipsum dolor sit amet.",
+        "title": "Main Header",
         "Data": {
             "type": "Header",
             "data": {
-                "id": "header-default",
-                "sticky": false,
+                "id": "header-main",
+                "sticky": true,
                 "className": "bg-primary shadow-md max-w-[1920px] mx-auto",
                 "mobileBreakpoint": 768,
                 "logoHref": "/",
-                "logoClassName": "w-[10vw]",
-                "imageSrc": "https://picsum.photos/100/100",
-                "altText": "Placeholder image",
+                "logoClassName": "w-[120px]",
+                "imageSrc": "logo.svg",
+                "altText": "Logo",
                 "children": [
                     {
                         "type": "IconButton",
@@ -29,6 +29,7 @@
                         "data-position": "far-item",
                         "className": "bg-primary hover:bg-primary-200 text-primary-950 rounded-sm px-4 py-2",
                         "title": "Language",
+                        "defaultValue": "en",
                         "hideSelectedLabel": true,
                         "data": {
                             "id": "select-lang",
@@ -53,7 +54,7 @@
                     {
                         "type": "MenuItem",
                         "data": {
-                            "id": "menu-item-home",
+                            "id": "nav-home",
                             "title": "Home",
                             "href": "/",
                             "className": "bg-primary hover:bg-primary-200 text-primary-950 rounded-sm px-4 py-2"
@@ -62,20 +63,16 @@
                     {
                         "type": "Dropdown",
                         "data": {
-                            "id": "menu-dropdown-services",
+                            "id": "nav-services",
                             "title": "Services",
                             "className": "bg-primary hover:bg-primary-200 text-primary-950 rounded-sm px-4 py-2",
-                            "itemGroupClassName": "bg-primary text-primary-950 p-4",
-                            "icon": "mdi:apps",
-                            "iconPosition": "left",
-                            "iconSize": "1.2rem",
-                            "iconColor": "currentColor"
+                            "itemGroupClassName": "bg-primary text-primary-950 p-4"
                         },
                         "children": [
                             {
                                 "type": "MenuGrid",
                                 "data": {
-                                    "id": "menugrid-services",
+                                    "id": "services-grid",
                                     "columns": 2,
                                     "className": "rounded-sm shadow-md",
                                     "gridClassName": "gap-6 bg-primary text-primary-950 rounded-sm px-4 py-2 shadow-md w-148"
@@ -84,31 +81,42 @@
                                     {
                                         "type": "MenuGridItem",
                                         "data": {
-                                            "id": "menugrid-item-consultancy-service",
-                                            "title": "Lorem ipsum dolor sit amet.",
-                                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                                            "href": "consultancy-services",
-                                            "icon": "mdi:briefcase-outline"
+                                            "title": "Consultancy",
+                                            "description": "Strategic advisory and technology roadmaps.",
+                                            "href": "/services#consultancy",
+                                            "icon": "mdi:account-tie-outline",
+                                            "className": "bg-primary hover:bg-primary-200 text-primary-950 rounded-sm px-4 py-2"
                                         }
                                     },
                                     {
                                         "type": "MenuGridItem",
                                         "data": {
-                                            "id": "menugrid-item-product-team-as-a-service",
-                                            "title": "Lorem ipsum dolor sit amet.",
-                                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                                            "href": "product-team-as-a-service",
-                                            "icon": "mdi:account-group-outline"
+                                            "title": "Managed Services",
+                                            "description": "24/7 support and infrastructure management.",
+                                            "href": "/services#managed",
+                                            "icon": "mdi:server-network",
+                                            "className": "bg-primary hover:bg-primary-200 text-primary-950 rounded-sm px-4 py-2"
                                         }
                                     },
                                     {
                                         "type": "MenuGridItem",
                                         "data": {
-                                            "id": "menugrid-item-managed-services",
-                                            "title": "Lorem ipsum dolor sit amet.",
-                                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                                            "href": "managed-services",
-                                            "icon": "mdi:cogs"
+                                            "id": "nav-ai",
+                                            "title": "AI Development",
+                                            "description": "Custom Agentic AI solutions for automation.",
+                                            "href": "/services#ai",
+                                            "icon": "mdi:robot-outline",
+                                            "className": "bg-primary hover:bg-primary-200 text-primary-950 rounded-sm px-4 py-2"
+                                        }
+                                    },
+                                    {
+                                        "type": "MenuGridItem",
+                                        "data": {
+                                            "title": "All Services",
+                                            "description": "View our complete catalog of solutions.",
+                                            "href": "/services",
+                                            "icon": "mdi:arrow-right",
+                                            "className": "bg-primary-300 hover:bg-primary-200 text-primary-950 rounded-sm px-4 py-2"
                                         }
                                     }
                                 ]
@@ -116,183 +124,14 @@
                         ]
                     },
                     {
-                        "type": "Dropdown",
+                        "type": "MenuItem",
                         "data": {
-                            "id": "menu-dropdown-help",
-                            "title": "Help",
-                            "className": "bg-primary hover:bg-primary-200 text-primary-950 rounded-sm px-4 py-2",
-                            "itemGroupClassName": "bg-primary text-primary-950 p-4",
-                            "icon": "mdi:apps",
-                            "iconPosition": "left",
-                            "iconSize": "1.2rem",
-                            "iconColor": "currentColor"
-                        },
-                        "children": [
-                            {
-                                "type": "MenuGrid",
-                                "data": {
-                                    "id": "menugrid-services",
-                                    "columns": 2,
-                                    "className": "rounded-sm shadow-md",
-                                    "gridClassName": "gap-6 bg-primary text-primary-950 rounded-sm px-4 py-2 shadow-md w-148"
-                                },
-                                "children": [
-                                    {
-                                        "type": "MenuGridItem",
-                                        "data": {
-                                            "id": "menugrid-item-cloud-services",
-                                            "title": "Lorem ipsum dolor sit amet.",
-                                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                                            "href": "cloud-services",
-                                            "icon": "mdi:cloud-outline"
-                                        }
-                                    },
-                                    {
-                                        "type": "MenuGridItem",
-                                        "data": {
-                                            "id": "menugrid-item-business-operations",
-                                            "title": "Lorem ipsum dolor sit amet.",
-                                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                                            "href": "business-operations",
-                                            "icon": "mdi:chart-line"
-                                        }
-                                    },
-                                    {
-                                        "type": "MenuGridItem",
-                                        "data": {
-                                            "id": "menugrid-item-user-experience",
-                                            "title": "Lorem ipsum dolor sit amet.",
-                                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                                            "href": "user-experience",
-                                            "icon": "mdi:palette-swatch-outline"
-                                        }
-                                    },
-                                    {
-                                        "type": "MenuGridItem",
-                                        "data": {
-                                            "id": "menugrid-item-modern-workspace",
-                                            "title": "Lorem ipsum dolor sit amet.",
-                                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                                            "href": "modern-workspace",
-                                            "icon": "mdi:monitor-dashboard"
-                                        }
-                                    },
-                                    {
-                                        "type": "MenuGridItem",
-                                        "data": {
-                                            "id": "menugrid-item-application-development",
-                                            "title": "Lorem ipsum dolor sit amet.",
-                                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                                            "href": "application-development",
-                                            "icon": "mdi:code-tags"
-                                        }
-                                    },
-                                    {
-                                        "type": "MenuGridItem",
-                                        "data": {
-                                            "id": "menugrid-item-agentics-ai",
-                                            "title": "Lorem ipsum dolor sit amet.",
-                                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                                            "href": "agentics-ai-development",
-                                            "icon": "mdi:robot-excited-outline"
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Dropdown",
-                        "data": {
-                            "id": "dropdown-products",
-                            "title": "Products",
-                            "className": "bg-primary hover:bg-primary-200 text-primary-950 rounded-sm px-4 py-2",
-                            "itemGroupClassName": "bg-primary text-primary-950 p-4",
-                            "icon": "mdi:apps",
-                            "iconPosition": "left",
-                            "iconSize": "1.2rem",
-                            "iconColor": "currentColor"
-                        },
-                        "children": [
-                            {
-                                "type": "MenuGrid",
-                                "data": {
-                                    "id": "menugrid-products",
-                                    "columns": 1,
-                                    "className": "rounded-sm shadow-md",
-                                    "gridClassName": "gap-6 bg-primary text-primary-950 rounded-sm px-4 py-2 shadow-md w-148"
-                                },
-                                "children": [
-                                    {
-                                        "type": "MenuGridItem",
-                                        "data": {
-                                            "id": "menugrid-item-handbook-365",
-                                            "title": "Lorem ipsum dolor sit amet.",
-                                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                                            "href": "#",
-                                            "icon": "mdi:web",
-                                            "target": "_blank"
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Dropdown",
-                        "data": {
-                            "id": "dropdown-aboutus",
-                            "title": "Information",
-                            "className": "bg-primary hover:bg-primary-200 text-primary-950 rounded-sm px-4 py-2",
-                            "itemGroupClassName": "bg-primary text-primary-950 p-4",
-                            "icon": "mdi:information-outline",
-                            "iconPosition": "left",
-                            "iconSize": "1.2rem",
-                            "iconColor": "currentColor"
-                        },
-                        "children": [
-                            {
-                                "type": "MenuGrid",
-                                "data": {
-                                    "id": "menugrid-aboutus",
-                                    "columns": 1,
-                                    "className": "rounded-sm shadow-md",
-                                    "gridClassName": "gap-6 bg-primary text-primary-950 rounded-sm px-4 py-2 shadow-md w-148"
-                                },
-                                "children": [
-                                    {
-                                        "type": "MenuGridItem",
-                                        "data": {
-                                            "id": "menugrid-item-contactus",
-                                            "title": "Lorem ipsum dolor sit amet.",
-                                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                                            "href": "contact-us",
-                                            "icon": "mdi:web"
-                                        }
-                                    },
-                                    {
-                                        "type": "MenuGridItem",
-                                        "data": {
-                                            "id": "menugrid-item-values",
-                                            "title": "Lorem ipsum dolor sit amet.",
-                                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                                            "href": "values",
-                                            "icon": "mdi:web"
-                                        }
-                                    },
-                                    {
-                                        "type": "MenuGridItem",
-                                        "data": {
-                                            "id": "menugrid-item-promises",
-                                            "title": "Lorem ipsum dolor sit amet.",
-                                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                                            "href": "promises",
-                                            "icon": "mdi:web"
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
+                            "id": "nav-contact",
+                            "title": "Contact Us",
+                            "href": "/contact-us",
+                            "inverted": true,
+                            "className": "bg-primary-600 hover:bg-primary-400 text-primary rounded-sm px-4 py-2"
+                        }
                     }
                 ]
             }

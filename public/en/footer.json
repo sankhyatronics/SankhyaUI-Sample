@@ -1,14 +1,15 @@
 [
     {
-        "title": "Lorem ipsum dolor sit amet.",
+        "title": "Main Footer",
         "Data": {
             "type": "Footer",
             "data": {
-                "companyName": "",
-                "imageSrc": "https://placehold.co/400x120/2E6305/FFFFFF?text=SankhyaUI",
+                "companyName": "Sample",
+                "imageSrc": "logo.svg",
+                "altText": "Logo",
                 "inverted": true,
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit fugiat nulla pariatur.",
-                "copyright": "\u00a9 2026 Sankhyatronics. All rights reserved.",
+                "description": "Leading the way in modern CMS solutions and Agentic AI development.",
+                "copyright": "© 2026 Sankhyatronics. All rights reserved.",
                 "socialLinks": [
                     {
                         "icon": "mdi:linkedin",
@@ -16,37 +17,37 @@
                     },
                     {
                         "icon": "mdi:github",
-                        "href": "https://github.com/sankhyatronics/SankhyaUI"
+                        "href": "https://github.com/sankhyatronics/SankhyaCMS"
                     }
                 ],
                 "columns": [
                     {
-                        "title": "Lorem ipsum dolor sit amet.",
+                        "title": "Site Map",
                         "links": [
                             {
-                                "label": "Lorem ipsum dolor sit amet.",
-                                "href": "Privacy-Policy"
+                                "label": "Home",
+                                "href": "/"
                             },
                             {
-                                "label": "Lorem ipsum dolor sit amet.",
-                                "href": "Cookie-Policy"
+                                "label": "Services",
+                                "href": "/services"
                             },
                             {
-                                "label": "Lorem ipsum dolor sit amet.",
-                                "href": "copyright"
-                            },
-                            {
-                                "label": "Lorem ipsum dolor sit amet.",
-                                "href": "terms-of-use"
+                                "label": "Contact Us",
+                                "href": "/contact-us"
                             }
                         ]
                     },
                     {
-                        "title": "Lorem ipsum dolor sit amet.",
+                        "title": "Legal",
                         "links": [
                             {
-                                "label": "Lorem ipsum dolor sit amet.",
-                                "href": "contact-us"
+                                "label": "Privacy Policy",
+                                "href": "#"
+                            },
+                            {
+                                "label": "Terms of Use",
+                                "href": "#"
                             }
                         ]
                     }

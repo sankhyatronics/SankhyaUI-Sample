@@ -1,41 +1,44 @@
 [
     {
-        "title": "Lorem ipsum dolor sit amet.",
+        "title": "Kontakt os",
         "Data": {
             "type": "Hero",
             "data": {
-                "title": "Lorem ipsum dolor sit amet.",
-                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Kontakt os",
+                "subtitle": "Har du et spørgsmål eller ønsker du at diskutere et projekt? Vores team er her for at hjælpe dig med at bygge din digitale fremtid.",
                 "imageSrc": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-                "textAlignment": "center"
+                "textAlignment": "center",
+                "padding": "medium",
+                "className": "min-h-[40vh] bg-primary text-primary-950"
             }
         }
     },
     {
-        "title": "Lorem ipsum dolor sit amet.",
+        "title": "Vores kontorer",
         "Data": {
             "type": "FeaturesSection",
             "data": {
-                "title": "Lorem ipsum dolor sit amet.",
+                "title": "Besøg os",
+                "subtitle": "Kig forbi et af vores globale kontorer eller ræk ud til os digitalt.",
                 "columns": 2
             },
             "children": [
                 {
                     "type": "ContentBlock",
                     "data": {
-                        "title": "Lorem ipsum dolor sit amet.",
-                        "className": "shadow-lg rounded-lg",
+                        "title": "Office 1",
+                        "className": "shadow-lg rounded-lg p-6 bg-primary-50",
                         "format": "markdown",
-                        "content": "coming soon..."
+                        "content": "### Main Hub\n\nStsstndgade 100\nKøbenhavn K\nDanmark\n\n**Phone:** +xx xx xx xx xx"
                     }
                 },
                 {
                     "type": "ContentBlock",
                     "data": {
-                        "title": "Lorem ipsum dolor sit amet.",
-                        "className": "shadow-lg rounded-lg",
+                        "title": "Global Support",
+                        "className": "shadow-lg rounded-lg p-6 bg-primary-100",
                         "format": "markdown",
-                        "content": "coming soon..."
+                        "content": "### Main Hub\n\nStsstndgade 100\nKøbenhavn K\nDanmark\n\n**Phone:** +xx xx xx xx xx"
                     }
                 }
             ]

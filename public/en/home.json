@@ -1,14 +1,14 @@
 [
     {
-        "title": "Lorem ipsum dolor sit amet.",
+        "title": "Welcome to SankhyaCMS",
         "Data": {
             "type": "Hero",
             "data": {
-                "title": "Lorem ipsum dolor sit amet.",
-                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "actionLabel": "Learn More",
-                "href": "#",
-                "imageSrc": "https://picsum.photos/900/1600",
+                "title": "Build Your Digital Excellence",
+                "subtitle": "Modern CMS solutions powered by SankhyaUI and Agentic AI. We deliver high-performance, accessible, and beautiful web experiences.",
+                "actionLabel": "Explore Services",
+                "href": "/services",
+                "imageSrc": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
                 "textPosition": "left",
                 "textAlignment": "left",
                 "padding": "none",
@@ -17,13 +17,66 @@
         }
     },
     {
-        "title": "Lorem ipsum dolor sit amet.",
+        "title": "Our Impact",
+        "Data": {
+            "type": "Stats",
+            "data": {
+                "items": [
+                    {
+                        "value": "150+",
+                        "label": "Projects Completed",
+                        "description": "Successfully delivered digital solutions across 20+ countries."
+                    },
+                    {
+                        "value": "99.9%",
+                        "label": "Uptime Guarantee",
+                        "description": "Reliable infrastructure for your mission-critical applications."
+                    },
+                    {
+                        "value": "24/7",
+                        "label": "Expert Support",
+                        "description": "Around-the-clock assistance from our dedicated engineering team."
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "title": "What Our Clients Say",
+        "Data": {
+            "type": "Testimonials",
+            "data": {
+                "title": "Trusted by Industry Leaders",
+                "subtitle": "Discover why developers and business owners choose SankhyaCMS for their digital projects.",
+                "items": [
+                    {
+                        "id": "t1",
+                        "name": "Alex Johnson",
+                        "role": "CTO",
+                        "company": "TechFlow Systems",
+                        "quote": "SankhyaCMS has transformed how we manage our digital assets. The integration with SankhyaUI is seamless and incredibly fast.",
+                        "rating": 5
+                    },
+                    {
+                        "id": "t2",
+                        "name": "Sarah Miller",
+                        "role": "Product Manager",
+                        "company": "DesignCo",
+                        "quote": "The dynamic rendering capabilities allow us to iterate on our landing pages in record time. A game-changer for our marketing team.",
+                        "rating": 5
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "title": "Core Expertise",
         "Data": {
             "type": "FeaturesSection",
             "data": {
-                "title": "Lorem ipsum dolor sit amet.",
-                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "actionLabel": "Read More",
+                "title": "Empowering Your Business",
+                "subtitle": "We combine strategy, design, and technology to help you scale your business in the digital era.",
+                "actionLabel": "View All Solutions",
                 "columns": 2
             },
             "children": [
@@ -31,114 +84,18 @@
                     "type": "FeatureItem",
                     "data": {
                         "icon": "mdi:briefcase-check-outline",
-                        "title": "Lorem ipsum dolor sit amet.",
-                        "href": "./Outsourcing",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                        "title": "Strategic Outsourcing",
+                        "href": "/outsourcing",
+                        "description": "Scale your team with elite engineering talent. We provide dedicated developers and integrated teams to accelerate your roadmap."
                     }
                 },
                 {
                     "type": "FeatureItem",
                     "data": {
                         "icon": "mdi:account-star-outline",
-                        "title": "Lorem ipsum dolor sit amet.",
-                        "href": "./Talent",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-                    }
-                },
-                {
-                    "type": "FeatureItem",
-                    "data": {
-                        "icon": "mdi:currency-usd",
-                        "title": "Lorem ipsum dolor sit amet.",
-                        "href": "./Pricing",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-                    }
-                },
-                {
-                    "type": "FeatureItem",
-                    "data": {
-                        "icon": "mdi:shield-check-outline",
-                        "title": "Lorem ipsum dolor sit amet.",
-                        "href": "./reliable-service",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-                    }
-                }
-            ]
-        }
-    },
-    {
-        "title": "Lorem ipsum dolor sit amet.",
-        "Data": {
-            "type": "FeatureSplit",
-            "data": {
-                "title": "Lorem ipsum dolor sit amet.",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                "image": {
-                    "imageSrc": "https://picsum.photos/200/100",
-                    "alt": "Digital Differentiators"
-                },
-                "imagePosition": "right",
-                "items": [],
-                "className": "theme-inverted",
-                "actionLabel": "Click Here",
-                "href": "#"
-            }
-        }
-    },
-    {
-        "title": "Lorem ipsum dolor sit amet.",
-        "Data": {
-            "type": "FeaturesSection",
-            "data": {
-                "title": "Lorem ipsum dolor sit amet.",
-                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "actionLabel": "Read More",
-                "columns": 3
-            },
-            "children": [
-                {
-                    "type": "FeatureSplit",
-                    "data": {
-                        "title": "Lorem ipsum dolor sit amet.",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                        "image": {
-                            "imageSrc": "https://picsum.photos/100/140",
-                            "alt": "Consultancy Services"
-                        },
-                        "imagePosition": "top",
-                        "className": "shadow-lg rounded-lg",
-                        "actionLabel": "Click Here",
-                        "href": "./Consultancy-Services"
-                    }
-                },
-                {
-                    "type": "FeatureSplit",
-                    "data": {
-                        "title": "Lorem ipsum dolor sit amet.",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                        "image": {
-                            "imageSrc": "https://picsum.photos/100/160",
-                            "alt": "Product Team as a Service"
-                        },
-                        "imagePosition": "top",
-                        "className": "shadow-lg rounded-lg theme-inverted",
-                        "actionLabel": "Click Here",
-                        "href": "./Product-Team-as-a-Service"
-                    }
-                },
-                {
-                    "type": "FeatureSplit",
-                    "data": {
-                        "title": "Lorem ipsum dolor sit amet.",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                        "image": {
-                            "imageSrc": "https://picsum.photos/100/150",
-                            "alt": "Managed Services"
-                        },
-                        "imagePosition": "top",
-                        "className": "shadow-lg rounded-lg",
-                        "actionLabel": "Click Here",
-                        "href": "./Managed-Services"
+                        "title": "Talent Solutions",
+                        "href": "/talent",
+                        "description": "Connect with top-tier professionals vetted for your specific industry needs. We help you find the right fit for your unique culture."
                     }
                 }
             ]
