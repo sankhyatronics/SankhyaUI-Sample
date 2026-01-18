@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "Hero",
+            "data": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "imageSrc": "https://picsum.photos/900/1600",
+                "textPosition": "left",
+                "textAlignment": "left",
+                "padding": "none",
+                "className": "min-h-[30vh] bg-primary text-primary-950"
+            }
+        }
+    },
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "ContentBlock",
+            "data": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "content": "We take a proactive approach to user privacy and ensure necessary steps are taken to protect your data during your visit. Our website complies with all EU laws and requirements for user privacy.\n\n### How We Use Your Information\nWhen you download material or communicate with us, we may collect your name, company, email, phone number, and title. This information is used for:\n*   **Website Administration**: Managing our site and applications.\n*   **Client Management**: Updating our client databases.\n*   **Marketing**: Sending relevant marketing materials.\n\n### Your Rights Under GDPR\nYou have the following rights regarding your personal data:\n*   **Right to be Informed**: Know how we collect and use your data.\n*   **Right of Access**: Request a copy of the data we hold on you.\n*   **Right to Rectification**: Correct inaccurate or incomplete information.\n*   **Right to Erasure**: Ask us to delete your data (\"Right to be forgotten\").\n*   **Right to Restrict Processing**: Prevent the processing of your data.\n*   **Right to Object**: Object to your data being used for specific purposes.\n*   **Right to Data Portability**: Move your data to another service.\n\n### Data Retention & Sharing\n*   **Retention**: We do not keep your information longer than necessary for the purpose it was collected.\n*   **Sharing**: We never share your personal information with authorities outside the EU/EEA unless instructed by you or a European authority.\n*   **Security**: We take additional steps to ensure your data is treated safely and securely even when processed in 'third countries'.\n\n### Contact Us\nIf you wish to access, update, or delete your information, please contact our Group Marketing & Communications team at our India office."
+            }
+        }
+    }
+]

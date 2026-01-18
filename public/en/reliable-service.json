@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "Hero",
+            "data": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "imageSrc": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
+                "textPosition": "left",
+                "textAlignment": "left",
+                "padding": "none",
+                "className": "min-h-[40vh] bg-primary text-primary-950"
+            }
+        }
+    },
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "ContentBlock",
+            "data": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "content": "Sankhyatronics is a quality provider of offshore IT services. Our four senior partners have over 75 years of combined experience in the IT industry, ensuring that our teams deliver a continuous and trusted service every day.\n\nWe offer a variety of services to meet the needs of our clients, including:\n\n*   **Managing your experts**: We can help you hire and up-skill your own offshore experts. We have a deep pool of talent to choose from, and we can provide housing, management, training, and support to ensure that your new employees are up to speed on your specific needs. We also include more traditional consultancy services as needed.\n*   **Rent a Product Team**: This option allows you to get quickly and easily access to a full team of on- and off-shore experts who can work on your key digital product. We can provide you with a team of experts who have the skills and experience to meet your specific needs.\n*   **Managed Service**: This option provides you with a complete outsourced IT solution. We will manage your entire IT infrastructure, from servers and networking to applications, security or any part that makes sense to your business.\n\nNo matter what your needs are, Sankhyatronics can help you achieve your IT goals. We are committed to providing our clients with the highest quality service, and we are confident that we can help you succeed."
+            }
+        }
+    }
+]

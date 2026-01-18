@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "Hero",
+            "data": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "imageSrc": "https://images.unsplash.com/photo-1522071823991-b550ba247b60?auto=format&fit=crop&q=80&w=800",
+                "textPosition": "left",
+                "textAlignment": "left",
+                "padding": "none",
+                "className": "min-h-[40vh] bg-primary text-primary-950"
+            }
+        }
+    },
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "ContentBlock",
+            "data": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "content": "In recent years, there has been a growing trend among organizations to in-source their digital workforce either fully or partially. This is, in many cases, due to the strategic importance of specific digital products in their businesses and the inherent need to be in full control of them. This development means hiring and retaining their own team of digital experts, rather than outsourcing the work to third-party vendors. There are several reasons for this trend, including the desire to have more strategic control over digital products and services, as well as the need to be ahead of competition using the latest technologies.\n\nHowever, in-sourcing a digital workforce can be challenging. One of the biggest challenges is finding and retaining qualified talent. Digital workforce is in high and growing demand, and there is a shortage of skilled workers in many areas. This can make it difficult to find the right people, and it can also be expensive to attract and retain them.\n\nAnother challenge is that digital experts are often used to working in an agile, dynamic, and entrepreneurial environment. They may not be accustomed to, or willing to work in, the more traditional corporate culture of many organizations. This can lead to challenges in terms of communication, motivation, collaboration and even retaining.\n\nFinally, in-sourcing a digital workforce can be expensive. The salaries of digital experts are typically higher than those of many other types of workers. This can put a strain on the budget, especially for smaller organizations.\n\nThese examples illustrate the challenges that organizations might face when in-sourcing their digital workforce. However, it is important to note that in-sourcing can also be a successful strategy, and in some cases an offshore in-sourcing strategy is a very valid option. By carefully planning and executing in-sourcing efforts, organizations can overcome challenges and reap the benefits of having a skilled and dedicated digital product team or even digital workforce.\n\nThe bottom line is that in many cases, full in-sourcing or full local in-sourcing is simply not feasible. This is especially true for organizations that do not have the resources to invest in a large team of digital experts or that reside in areas where these kinds of skills are simply not available for hire. In these cases, a hybrid approach may be more appropriate. This can involve outsourcing some of the work to third-party vendors, while retaining a team of in-house business experts to manage the direction of the digital products or even build up an offshore digital in-sourcing team for example using Sankhyatronics's offshore digital in-sourcing services."
+            }
+        }
+    }
+]

@@ -1,0 +1,15 @@
+*storybook.log
+storybook-static
+dist
+obj
+
+.DS_STORE
+node_modules
+build/
+remote-repo/
+coverage
+.module-cache
+*.log*
+.vscode
+
+

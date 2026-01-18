@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "Footer",
+            "data": {
+                "companyName": "",
+                "imageSrc": "https://placehold.co/400x120/2E6305/FFFFFF?text=SankhyaUI",
+                "inverted": true,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit fugiat nulla pariatur.",
+                "copyright": "\u00a9 2026 Sankhyatronics. All rights reserved.",
+                "socialLinks": [
+                    {
+                        "icon": "mdi:linkedin",
+                        "href": "https://www.linkedin.com/company/sankhyatronics"
+                    },
+                    {
+                        "icon": "mdi:github",
+                        "href": "https://github.com/sankhyatronics/SankhyaUI"
+                    }
+                ],
+                "columns": [
+                    {
+                        "title": "Lorem ipsum dolor sit amet.",
+                        "links": [
+                            {
+                                "label": "Lorem ipsum dolor sit amet.",
+                                "href": "Privacy-Policy"
+                            },
+                            {
+                                "label": "Lorem ipsum dolor sit amet.",
+                                "href": "Cookie-Policy"
+                            },
+                            {
+                                "label": "Lorem ipsum dolor sit amet.",
+                                "href": "copyright"
+                            },
+                            {
+                                "label": "Lorem ipsum dolor sit amet.",
+                                "href": "terms-of-use"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Lorem ipsum dolor sit amet.",
+                        "links": [
+                            {
+                                "label": "Lorem ipsum dolor sit amet.",
+                                "href": "contact-us"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+]

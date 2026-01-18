@@ -1,0 +1,147 @@
+[
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "Hero",
+            "data": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "actionLabel": "Learn More",
+                "href": "#",
+                "imageSrc": "https://picsum.photos/900/1600",
+                "textPosition": "left",
+                "textAlignment": "left",
+                "padding": "none",
+                "className": "min-h-[50vh] md:min-h-[70vh] bg-primary text-primary-950"
+            }
+        }
+    },
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "FeaturesSection",
+            "data": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "actionLabel": "Read More",
+                "columns": 2
+            },
+            "children": [
+                {
+                    "type": "FeatureItem",
+                    "data": {
+                        "icon": "mdi:briefcase-check-outline",
+                        "title": "Lorem ipsum dolor sit amet.",
+                        "href": "./Outsourcing",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                    }
+                },
+                {
+                    "type": "FeatureItem",
+                    "data": {
+                        "icon": "mdi:account-star-outline",
+                        "title": "Lorem ipsum dolor sit amet.",
+                        "href": "./Talent",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                    }
+                },
+                {
+                    "type": "FeatureItem",
+                    "data": {
+                        "icon": "mdi:currency-usd",
+                        "title": "Lorem ipsum dolor sit amet.",
+                        "href": "./Pricing",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                    }
+                },
+                {
+                    "type": "FeatureItem",
+                    "data": {
+                        "icon": "mdi:shield-check-outline",
+                        "title": "Lorem ipsum dolor sit amet.",
+                        "href": "./reliable-service",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "FeatureSplit",
+            "data": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                "image": {
+                    "imageSrc": "https://picsum.photos/200/100",
+                    "alt": "Digital Differentiators"
+                },
+                "imagePosition": "right",
+                "items": [],
+                "className": "theme-inverted",
+                "actionLabel": "Click Here",
+                "href": "#"
+            }
+        }
+    },
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "FeaturesSection",
+            "data": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "actionLabel": "Read More",
+                "columns": 3
+            },
+            "children": [
+                {
+                    "type": "FeatureSplit",
+                    "data": {
+                        "title": "Lorem ipsum dolor sit amet.",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                        "image": {
+                            "imageSrc": "https://picsum.photos/100/140",
+                            "alt": "Consultancy Services"
+                        },
+                        "imagePosition": "top",
+                        "className": "shadow-lg rounded-lg",
+                        "actionLabel": "Click Here",
+                        "href": "./Consultancy-Services"
+                    }
+                },
+                {
+                    "type": "FeatureSplit",
+                    "data": {
+                        "title": "Lorem ipsum dolor sit amet.",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                        "image": {
+                            "imageSrc": "https://picsum.photos/100/160",
+                            "alt": "Product Team as a Service"
+                        },
+                        "imagePosition": "top",
+                        "className": "shadow-lg rounded-lg theme-inverted",
+                        "actionLabel": "Click Here",
+                        "href": "./Product-Team-as-a-Service"
+                    }
+                },
+                {
+                    "type": "FeatureSplit",
+                    "data": {
+                        "title": "Lorem ipsum dolor sit amet.",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                        "image": {
+                            "imageSrc": "https://picsum.photos/100/150",
+                            "alt": "Managed Services"
+                        },
+                        "imagePosition": "top",
+                        "className": "shadow-lg rounded-lg",
+                        "actionLabel": "Click Here",
+                        "href": "./Managed-Services"
+                    }
+                }
+            ]
+        }
+    }
+]

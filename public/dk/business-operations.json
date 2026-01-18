@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "Hero",
+            "data": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "imageSrc": "https://picsum.photos/900/1600",
+                "textPosition": "left",
+                "textAlignment": "left",
+                "padding": "none",
+                "className": "min-h-[40vh] bg-primary text-primary-950"
+            }
+        }
+    },
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "ContentBlock",
+            "data": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "content": "# Lorem ipsum dolor sit amet,\n\nconsectetur adipiscing elit. Duis dapibus mi sed erat dapibus gravida. Curabitur consectetur ex ac posuere accumsan. Nunc sagittis, lectus quis pulvinar facilisis, velit est eleifend justo, non consequat lorem quam at mi. Donec vel neque vel elit consectetur mattis.\n\n -Vivamus vel lorem fermentum, laoreet sem ac, ultricies sem. \n\n- Aliquam erat volutpat. Mauris venenatis metus a felis lacinia, dapibus consequat turpis cursus. \n\n- Duis iaculis, augue vel tempus cursus, nisl elit aliquet augue.\n\nQuis sollicitudin nisi diam non tortor. Curabitur dictum odio feugiat purus pharetra, in laoreet velit suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\n## Duis fermentum arcu a luctus sodales. \n\nNam ante eros, faucibus lacinia nulla accumsan, pretium varius velit. Nunc gravida eleifend orci vel convallis. Nam et fermentum ante, vitae ullamcorper nulla. Maecenas molestie ex eu sem ullamcorper condimentum. Pellentesque felis est, cursus ut nibh eu, pulvinar ultrices augue. \n\n### Ut convallis, orci quis sodales ultricies.\n\nUrna lorem molestie leo, ut convallis lacus leo quis sapien. Donec tempus elit elementum ligula consequat, vel consectetur tellus accumsan. Sed scelerisque lectus ut eros facilisis, at egestas ipsum dictum. Proin quis dapibus lorem. Ut eget quam augue. Quisque sodales lobortis ex, sed malesuada lorem rhoncus non. Nulla euismod nisi nisl. Aenean viverra nulla in dui tristique, sed tempor nibh molestie. Aliquam eu eros ut turpis dignissim sagittis.\n\n    Sed scelerisque lectus\n\nVestibulum nec neque semper, molestie nibh et, ultrices quam. Donec dui sapien, vestibulum ut lorem et, interdum convallis dui. Integer maximus pretium ante, ac iaculis libero condimentum et. Pellentesque urna enim, ullamcorper id sem id, imperdiet accumsan velit. Praesent eu arcu ullamcorper, viverra tellus et, pretium ex. Nunc eu ipsum non nisl ornare bibendum sed vitae est. Pellentesque viverra, nisl dictum molestie aliquet, turpis enim porttitor magna, quis ultricies arcu sem nec diam. Aenean tristique felis justo, ac posuere ex faucibus sit amet. Fusce id dapibus nisl."
+            }
+        }
+    }
+]

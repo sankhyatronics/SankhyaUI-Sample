@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "Hero",
+            "data": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "imageSrc": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800",
+                "textPosition": "left",
+                "textAlignment": "left",
+                "padding": "none",
+                "className": "min-h-[40vh] bg-primary text-primary-950"
+            }
+        }
+    },
+    {
+        "title": "Lorem ipsum dolor sit amet.",
+        "Data": {
+            "type": "ContentBlock",
+            "data": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "content": "**Background**: In today's digital age, businesses of all sizes are increasingly relying on strategic digital technology to operate and compete. This reliance on digital technology has led to a growing importance of digital discovery and development for businesses. Digital discovery and development are the process of researching, ideation, user testing, developing, and implementing digital solutions that can help businesses reach new customers, retain existing customers, improve their operations, and grow their business.\n\n**Statement**: Only you know your business and how much you need to be in strategic control of its digital products. This is because the specific digital products and services that are most important to your business will vary, depending on your industry, your organization, your customers, and your goals. For example, a security company may need to develop a specialized digital product to protect its customers' data, while an e-commerce company may need to develop a specialized web-based shopping platform.\n\n**Examples**: Some examples of key digital technologies that can be important differentiators for businesses:\n\n*   **Artificial intelligence (AI)**: AI is a powerful technology that can be used to automate tasks, improve decision-making, and personalize customer experiences. Businesses that can successfully implement AI solutions can gain a significant competitive advantage.\n*   **Specialized online presence**: A business with a specialized online presence can reach a wider audience and provide a more personalized experience for its customers. This could involve creating a custom website, developing a mobile app, or using social media to connect with customers.\n*   **Augmented Reality in design**: A furniture retailer uses augmented reality (AR) to let customers see how furniture would look in their homes before they buy it.\n*   **AI in delivery service**: A food delivery service uses machine learning to predict which customers are most likely to order from them to target marketing.\n*   **Cloud computing**: Cloud computing can help businesses access computing resources, such as servers, storage, and applications, on demand.\n\nSpecialized Web-based shopping platform: A web-based shopping platform can allow businesses to sell their products and services to customers around the world. This can be a major advantage for businesses that want to expand their reach and increase their sales.\n\nThe statement that, businesses need to be in strategic control of their digital development, is true, because the specific digital products and services that are most important to a business will vary, depending on the business's industry, organization, customers, and goals. By taking control of their digital development, businesses can ensure that they are using digital technology to their full advantage and that they are not at the mercy of third-party digital vendors.\n\nAs stated, research shows that more and more businesses in the Nordic countries are working to take back control of their key digital outsourcing. One reason for this is because businesses in the Nordics are known for their innovative and entrepreneurial spirit, and they are not afraid to embrace new technologies when they see a chance to move ahead of the curve. By taking control of their digital products, these businesses are positioning themselves for success in the digital age."
+            }
+        }
+    }
+]
