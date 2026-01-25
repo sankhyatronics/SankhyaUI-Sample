@@ -9,7 +9,7 @@
                 "imageSrc": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
                 "textAlignment": "center",
                 "padding": "medium",
-                "className": "min-h-[40vh] bg-primary text-primary-950"
+                "className": "min-h-[40vh] bg-primary text-primary-950 mt-20"
             }
         }
     },

@@ -9,7 +9,7 @@
                 "className": "bg-primary shadow-md max-w-[1920px] mx-auto",
                 "mobileBreakpoint": 768,
                 "logoHref": "/",
-                "logoClassName": "w-[120px]",
+                "logoClassName": "w-[42px]",
                 "imageSrc": "logo.svg",
                 "altText": "Logo",
                 "children": [

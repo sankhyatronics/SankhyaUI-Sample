@@ -12,7 +12,7 @@
                 "textPosition": "left",
                 "textAlignment": "left",
                 "padding": "none",
-                "className": "min-h-[50vh] md:min-h-[70vh] bg-primary text-primary-950"
+                "className": "min-h-[50vh] md:min-h-[70vh] bg-primary text-primary-950 mt-20"
             }
         }
     },
